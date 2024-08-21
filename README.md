@@ -77,6 +77,7 @@ Loops in C++ are control flow structures that allow for the repeated execution o
 # Algorithms
 
 - Inverted Simple Pyramid
+
   -Start
 
   -Input
@@ -100,9 +101,11 @@ Loops in C++ are control flow structures that allow for the repeated execution o
    Decrement:
 
   -Decrement i by 1.
-   End
-
+  
+  -End
+   
 - Reverse PRN
+
   -Input:
   
   -Read an integer PRN from the user.
