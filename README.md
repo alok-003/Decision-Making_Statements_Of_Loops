@@ -104,13 +104,24 @@ Loops in C++ are control flow structures that allow for the repeated execution o
 
 - Reverse PRN
   -Input:
+  
   -Read an integer PRN from the user.
+  
   -Initialization:
+  
   -Create a variable reverse to store the extracted digit.
+  
   -Reversing Loop:
+  
   -While PRN is greater than 0:
+  
   -Extract the last digit of PRN using reverse = PRN % 10.
+  
   -Print the extracted digit reverse.
+  
   -Remove the last digit from PRN using PRN = PRN / 10.
+  
   -Output:
+  
   -The reversed number is printed to the console.
+  
