@@ -15,9 +15,10 @@ Loops in C++ are control flow structures that allow for the repeated execution o
 
   -For Loop:
    Used when the number of iterations is known beforehand.
-   Syntax -
+   
+ Syntax -
 
-   for (initialization; condition; increment/decrement) {
+for (initialization; condition; increment/decrement) {
     // loop body
     }
   
@@ -34,8 +35,9 @@ Loops in C++ are control flow structures that allow for the repeated execution o
 
  - While Loop:
   Used when the number of iterations is unknown, and the loop continues as long as a condition is true.
+  
   Syntax -
- 
+  
     while (condition) {
       // loop body
      }
@@ -54,9 +56,10 @@ Loops in C++ are control flow structures that allow for the repeated execution o
   
   - Do-while loop:
      Executes the loop body at least once, then checks the condition. Useful when the loop must run at least once, regardless of the initial condition.
+     
      Syntax -
 
-     do { // loop body } while (condition);
+  do { // loop body } while (condition);
      #include <iostream>
 
      using namespace std;
