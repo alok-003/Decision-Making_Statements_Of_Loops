@@ -18,7 +18,7 @@ Loops in C++ are control flow structures that allow for the repeated execution o
    
  Syntax -
 
-for (initialization; condition; increment/decrement) {
+    for (initialization; condition; increment/decrement) {
     // loop body
     }
   
@@ -41,7 +41,7 @@ for (initialization; condition; increment/decrement) {
     while (condition) {
       // loop body
      }
-  
+     
     #include <iostream>
     using namespace std;
 
@@ -59,19 +59,19 @@ for (initialization; condition; increment/decrement) {
      
      Syntax -
 
-  do { // loop body } while (condition);
-     #include <iostream>
+          do { // loop body } while (condition);
 
-     using namespace std;
+         #include <iostream> 
+        using namespace std;
 
-     int main() {
+        int main() {
          int number = 1;
          do {
              cout << "Number: " << number << endl;
              number++;
          } while (number <= 5);
          return 0;
-     }
+        }
 
     
 # Algorithms
